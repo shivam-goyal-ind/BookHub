@@ -5,19 +5,12 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon index.js"
+        "dev" : "nodemon Backend/index.js",
+        "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend",
+        "start" : "nodemon Backend/index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/akhil2k-lc/bookStoreApp.git"
-    },
-    "author": "Akhil",
+    "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/akhil2k-lc/bookStoreApp/issues"
-    },
-    "homepage": "https://github.com/akhil2k-lc/bookStoreApp#readme",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",

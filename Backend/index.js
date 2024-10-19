@@ -2,11 +2,13 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
+import path from "path";
 
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
 const app = express();
+const _dirname = path.resolve();
 
 app.use(cors());
 app.use(express.json());
@@ -30,6 +32,11 @@ try {
 // defining routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
+
+app.use(express.static(path.join(_dirname,"Frontend/dist")));
+app.get('*', (_,res)=>{
+    res.sendFile(path.resolve(_dirname, "frontend", "dist", "index.html"));
+});
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
