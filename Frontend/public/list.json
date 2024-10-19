@@ -1,0 +1,82 @@
+[
+    {
+        "id" : 1,
+        "name" : "Story Book",
+        "title" : "Story",
+        "price" : 0,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 2,
+        "name" : "Child Book",
+        "title" : "Child",
+        "price" : 20,
+        "category" : "Paid",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 3,
+        "name" : "Comedy Book",
+        "title" : "Comedy",
+        "price" : 0,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 4,
+        "name" : "Learning Book",
+        "title" : "Learn",
+        "price" : 50,
+        "category" : "Paid",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 5,
+        "name" : "Entertainment Book",
+        "title" : "Entertainment",
+        "price" : 0,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 6,
+        "name" : "Dance Book",
+        "title" : "Dance",
+        "price" : 50,
+        "category" : "Paid",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 7,
+        "name" : "Social Book",
+        "title" : "Social",
+        "price" : 0,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 8,
+        "name" : "Enterpreneurship Book",
+        "title" : "Entrepreneur",
+        "price" : 80,
+        "category" : "Paid",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 9,
+        "name" : "Business Book",
+        "title" : "Business",
+        "price" : 0,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    },
+    {
+        "id" : 10,
+        "name" : "Psychology Book",
+        "title" : "Psychology",
+        "price" : 100,
+        "category" : "Paid",
+        "image" : "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1729335512~exp=1729339112~hmac=9eb61afbb7028c2ae71d68d72826f802438c5104f20769471ffa8d0c478da48b&w=996"
+    }
+]
