@@ -9,8 +9,11 @@ import userRoute from "./route/user.route.js";
 
 const app = express();
 const _dirname = path.resolve();
-
-app.use(cors());
+const corsOptions = {
+    origin : "https://bookhub-2-s49d.onrender.com",
+    credentials : true
+} 
+app.use(cors(corsOptions));
 app.use(express.json());
 
 dotenv.config();
